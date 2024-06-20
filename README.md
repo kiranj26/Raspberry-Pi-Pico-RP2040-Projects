@@ -4,11 +4,11 @@ Welcome to the Raspberry Pi Pico RP2040 Projects repository! This repository is 
 
 ![Raspberry Pi Pico RP2040](https://github.com/kiranj26/Raspberry-Pi-Pico-RP2040-Projects/assets/111842372/c11f5e61-776a-4b29-89f8-43437a843a9c)
 
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
-- [Projects](#projects)
+- [Repository Structure](#repository-structure)
+- [Examples](#examples)
   - [Blinking LED](#blinking-led)
   - [GPIO Input/Output](#gpio-input-output)
   - [PWM Control](#pwm-control)
@@ -17,6 +17,7 @@ Welcome to the Raspberry Pi Pico RP2040 Projects repository! This repository is 
   - [SPI Communication](#spi-communication)
   - [UART Communication](#uart-communication)
   - [Timers and Interrupts](#timers-and-interrupts)
+- [Assignments](#assignments)
 - [Resources](#resources)
 - [Contributing](#contributing)
 - [License](#license)
@@ -34,45 +35,51 @@ To get started with the projects in this repository, you'll need the following t
 2. Follow the instructions to set up [MicroPython on the Raspberry Pi Pico](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico).
 
 ## Repository Structure
-
-- [Blinking LED](#blinking-led)
-- [GPIO Input/Output](#gpio-input-output)
-- [PWM Control](#pwm-control)
-- [ADC and Sensor Integration](#adc-and-sensor-integration)
-- [I2C Communication](#i2c-communication)
-- [SPI Communication](#spi-communication)
-- [UART Communication](#uart-communication)
-- [Timers and Interrupts](#timers-and-interrupts)
+- `examples/`: Contains various example projects showcasing the use of different peripherals on the Raspberry Pi Pico.
+- `assignments/`: Contains assignments created to help Professor Ariella Blum and her students in LAB ECEN 2400.
 
 ## Examples
+These examples are what I tried my hands on with the Raspberry Pi Pico to explore its various functionalities.
 
 ### Blinking LED
-- [Blinking LED](https://github.com/kiranj26/Raspberry-Pi-Pico-RP2040-Projects/tree/main/examples/Blinking_LED)
+- [Blinking LED](examples/Blinking_LED)
 
 ### GPIO Input/Output
-- [GPIO Input](https://github.com/kiranj26/Raspberry-Pi-Pico-RP2040-Projects/tree/main/examples/GPIO/Input)
-- [GPIO Output](https://github.com/kiranj26/Raspberry-Pi-Pico-RP2040-Projects/tree/main/examples/GPIO/Output)
+- [GPIO Input](examples/GPIO/Input)
+- [GPIO Output](examples/GPIO/Output)
 
 ### PWM Control
-- [PWM Control](https://github.com/kiranj26/Raspberry-Pi-Pico-RP2040-Projects/tree/main/examples/PWM)
+- [PWM Control](examples/PWM)
 
 ### ADC and Sensor Integration
-- [ADC Reading](https://github.com/kiranj26/Raspberry-Pi-Pico-RP2040-Projects/tree/main/examples/ADC)
+- [ADC Reading](examples/ADC)
 
 ### I2C Communication
-- [I2C Master](https://github.com/kiranj26/Raspberry-Pi-Pico-RP2040-Projects/tree/main/examples/I2C/Master)
-- [I2C Slave](https://github.com/kiranj26/Raspberry-Pi-Pico-RP2040-Projects/tree/main/examples/I2C/Slave)
+- [I2C Master](examples/I2C/Master)
+- [I2C Slave](examples/I2C/Slave)
 
 ### SPI Communication
-- [SPI Master](https://github.com/kiranj26/Raspberry-Pi-Pico-RP2040-Projects/tree/main/examples/SPI/Master)
-- [SPI Slave](https://github.com/kiranj26/Raspberry-Pi-Pico-RP2040-Projects/tree/main/examples/SPI/Slave)
+- [SPI Master](examples/SPI/Master)
+- [SPI Slave](examples/SPI/Slave)
 
 ### UART Communication
-- [UART](https://github.com/kiranj26/Raspberry-Pi-Pico-RP2040-Projects/tree/main/examples/UART)
+- [UART](examples/UART)
 
 ### Timers and Interrupts
-- [Timers](https://github.com/kiranj26/Raspberry-Pi-Pico-RP2040-Projects/tree/main/examples/Timers)
-- [Interrupts](https://github.com/kiranj26/Raspberry-Pi-Pico-RP2040-Projects/tree/main/examples/Interrupts)
+- [Timers](examples/Timers)
+- [Interrupts](examples/Interrupts)
+
+## Assignments
+**These assignments were created by me, Kiran Jojare, as a graduate teaching assistant for the course ECEN 2400: Applications of Embedded Systems, under the guidance of Professor Ariella Blum.**
+
+### Lab 8: Installing Visual Studio Code
+Step-by-step instructions for setting up the development environment and writing your first Python script for the Raspberry Pi Pico.
+
+### Lab 13 Part 1: SBB IR Receiver & Programming
+Instructions for setting up an IR receiver circuit with the Raspberry Pi Pico and decoding IR signals using the NEC protocol.
+
+### Lab 13 Part 2: SBB IR Transmitter & Receiver
+Comprehensive guide for setting up an IR communication system, including both IR transmission and reception with the Raspberry Pi Pico.
 
 ## Resources
 - [Raspberry Pi Pico Datasheet](https://datasheets.raspberrypi.org/pico/pico-datasheet.pdf)
