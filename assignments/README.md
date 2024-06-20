@@ -1,54 +1,39 @@
-# ECEN 2400: Applications of Embedded Systems - Assignments
+# Assignments for ECEN 2400: Applications of Embedded Systems
 
-This folder contains a series of template assignments created for the ECEN 2400: Applications of Embedded Systems course at the University of Boulder. These assignments are designed for interdisciplinary students enrolled in the undergraduate school of engineering. The course is taught by Professor Ariella Blum.
+**These assignments were created by Kiran Jojare as a graduate teaching assistant for the course ECEN 2400: Applications of Embedded Systems, under the guidance of Professor Ariella Blum.**
+
+This folder contains a collection of assignments designed to help students understand and implement various embedded systems concepts using the Raspberry Pi Pico. Each assignment focuses on different peripherals and functionalities, providing a comprehensive learning experience.
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Assignment Details](#assignment-details)
-  - [Lab 8: Installing Visual Studio Code and Blinking the Onboard LED](#lab-8-installing-visual-studio-code-and-blinking-the-onboard-led)
-  - [Future Labs](#future-labs)
-- [My Role](#my-role)
-- [Additional Resources](#additional-resources)
+- [Lab 8: Installing Visual Studio Code](#lab-8-installing-visual-studio-code)
+- [Lab 13 Part 1: SBB IR Receiver & Programming](#lab-13-part-1-sbb-ir-receiver--programming)
+- [Lab 13 Part 2: SBB IR Transmitter & Receiver](#lab-13-part-2-sbb-ir-transmitter--receiver)
 
-## Introduction
-This folder includes detailed lab assignments designed to teach students how to work with the Raspberry Pi Pico and other related software tools. Each lab focuses on specific topics, ranging from setting up development environments to programming microcontrollers using MicroPython.
+### Lab 8: Installing Visual Studio Code
+This lab guides students through the process of installing Visual Studio Code, setting up the development environment for programming the Raspberry Pi Pico, and writing a simple Python script to ensure everything is correctly configured.
 
-## Assignment Details
+**Folder Contents:**
+- `Lab8_Installing_Visual_Studio_Code.docx`: The lab document with step-by-step instructions for setting up Visual Studio Code.
+- `main.py`: Example code to verify the installation and setup.
 
-### Lab 8: Installing Visual Studio Code and Blinking the Onboard LED
-- **Document**: `Lab8_Installing_Visual_Studio_Code.docx`
-- **Description**: This lab guides students through the installation of Visual Studio Code (VSCode) and configuring it for programming the Raspberry Pi Pico using MicroPython. The lab includes steps for installing Python 3, configuring system variables, and setting up VSCode with necessary extensions. It concludes with a hands-on exercise to blink the onboard LED of the Raspberry Pi Pico.
-- **Files**:
-  - `Lab8_Installing_Visual_Studio_Code.docx`: Detailed instructions for the lab.
-  - `main.py`: Example code to blink the onboard LED.
+### Lab 13 Part 1: SBB IR Receiver & Programming
+This lab introduces students to the practical aspects of infrared (IR) communication. Students will learn how to set up an IR receiver circuit with the Raspberry Pi Pico, decode NEC protocol frames, and use this knowledge to control actions based on IR commands.
 
-### Future Labs
-- **Lab 9**: TBD (Include a brief description of future labs you have developed)
-- **Lab 10**: TBD (Include a brief description of future labs you have developed)
+**Folder Contents:**
+- `Lab13_SBB_IR_Receiver_Programming.docx`: The lab document with detailed instructions and explanations.
+- `main.py`: Example code for receiving and decoding IR signals.
 
-## My Role
-As a Graduate Student Assistant for the ECEN 2400 course, my responsibilities included:
-- Developing template assignments based on the Raspberry Pi Pico RP2040 for interdisciplinary students enrolled in the undergraduate school of engineering.
-- Writing detailed documentation and instructions for each lab.
-- Creating example code and projects for students to follow and learn from.
-- Assisting students with technical questions and troubleshooting during lab sessions.
-- Ensuring that the lab content aligns with the course objectives and learning outcomes.
+### Lab 13 Part 2: SBB IR Transmitter & Receiver
+Building on the previous lab, this lab covers both transmission and reception of IR signals. Students will set up an IR communication system, encode and send IR signals using an IR LED transmitter, and receive and decode these signals with an IR receiver.
 
-## Additional Resources
-- [MicroPython Quick Reference for the RP2](https://docs.micropython.org/en/latest/rp2/quickref.html)
-- [Raspberry Pi Pico and Visual Studio Code Video](https://www.youtube.com/watch?v=O6lkYTfcMEg&t=200s)
-- [Raspberry Pi Documentation](https://www.raspberrypi.org/documentation/)
-- [Thonny IDE](https://thonny.org/)
-- [Raspberry Pi Forums](https://www.raspberrypi.org/forums/)
-- [MicroPython Forum](https://forum.micropython.org/)
-- [Getting Started with MicroPython on the Raspberry Pi Pico](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico)
-
-## License
-The content in this folder is licensed under the MIT License.
+**Folder Contents:**
+- `Lab13_Part2_SBB_IR_TX_RX.docx`: The lab document with comprehensive instructions for both IR transmission and reception.
+- `main.py`: Example code for sending IR signals (transmitter).
+- `main.py`: Example code for receiving IR signals (receiver).
 
 ---
 
-Happy coding!
+Happy learning!
 
 **Kiran Jojare**  
 *Embedded Software / Firmware Engineer*  
