@@ -1,6 +1,6 @@
-# PWM Control Example
+# ADC Reading Example
 
-This example demonstrates how to generate PWM signals to control the brightness of an LED on the Raspberry Pi Pico RP2040.
+This example demonstrates how to read analog values from a potentiometer or sensor using the ADC (Analog-to-Digital Converter) on the Raspberry Pi Pico RP2040.
 
 ## Hardware Details
 
@@ -12,8 +12,8 @@ The Raspberry Pi Pico RP2040 is a versatile microcontroller designed for a wide 
 - **Peripherals**: GPIO, PWM, ADC, I2C, SPI, UART, and more.
 - **Package**: Available in a 40-pin DIP package.
 
-### Onboard LED
-The Raspberry Pi Pico includes a built-in LED connected to GPIO pin 25.
+### Analog Input Pin
+A potentiometer is connected to GPIO pin 26 (ADC0).
 
 ## Software Details
 
@@ -23,20 +23,23 @@ The Raspberry Pi Pico includes a built-in LED connected to GPIO pin 25.
 
 ### Instructions
 
-1. **Open Thonny IDE**.
-2. **Connect the Raspberry Pi Pico** to your computer via USB.
-3. **Select the Raspberry Pi Pico interpreter** from the bottom-right corner in Thonny.
-4. **Create a New File**:
+1. **Hardware Setup**:
+    - Connect a potentiometer's middle pin to GPIO pin 26 (ADC0).
+    - Connect the other two pins of the potentiometer to 3.3V and GND.
+2. **Open Thonny IDE**.
+3. **Connect the Raspberry Pi Pico** to your computer via USB.
+4. **Select the Raspberry Pi Pico interpreter** from the bottom-right corner in Thonny.
+5. **Create a New File**:
     - Click `File -> New`.
     - Copy the content from the `main.py` provided in this folder.
     - Save the file as `main.py` on the Raspberry Pi Pico.
-5. **Run the Program**:
-    - The LED should gradually increase and decrease in brightness.
+6. **Run the Program**:
+    - Open the serial monitor in Thonny to see the potentiometer values printed.
 
 ### Code Explanation
 
 #### main.py
-This code initializes GPIO pin 25 as a PWM output pin for the LED. It sets the PWM frequency to 1 kHz and continuously adjusts the duty cycle to create a breathing effect for the LED.
+This code initializes GPIO pin 26 as an ADC input pin for reading analog values from a potentiometer. It continuously reads the ADC value and prints it to the serial monitor.
 
 ### Additional Resources
 - [Raspberry Pi Pico Datasheet](https://datasheets.raspberrypi.org/pico/pico-datasheet.pdf)
