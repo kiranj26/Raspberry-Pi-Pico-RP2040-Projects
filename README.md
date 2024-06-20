@@ -2,7 +2,8 @@
 
 Welcome to the Raspberry Pi Pico RP2040 Projects repository! This repository is dedicated to exploring and leveraging the capabilities of the Raspberry Pi Pico RP2040 microcontroller. Here, you'll find a collection of projects, examples, and resources that will help you get the most out of this powerful microcontroller. This repository will be my playground to try my hands on this hardware.
 
-![Raspberry Pi Pico RP2040](https://www.newark.com/productimages/standard/en_US/38AK5986-40.jpg)
+![Raspberry Pi Pico RP2040](https://github.com/kiranj26/Raspberry-Pi-Pico-RP2040-Projects/assets/111842372/c11f5e61-776a-4b29-89f8-43437a843a9c)
+
 
 ## Table of Contents
 - [Introduction](#introduction)
